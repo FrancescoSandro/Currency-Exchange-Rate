@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Georgia', serif;
+    background-color: #d9c89f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Card */
+.container {
+    background: #f3f3f3;
+    padding: 30px;
+    border-radius: 15px;
+    width: 350px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Title */
+h2 {
+    margin-bottom: 20px;
+}
+
+/* Labels */
+label {
+    display: block;
+    text-align: left;
+    margin: 10px 0 5px;
+    font-size: 14px;
+}
+
+/* Input */
+input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    outline: none;
+    font-size: 14px;
+}
+
+/* Row layout */
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+/* Select box */
+.select-box {
+    width: 40%;
+}
+
+/* Flag + select wrapper */
+.flag-select {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background: white;
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+/* Flag image */
+.flag-select img {
+    width: 30px;
+    height: 20px;
+    border-radius: 3px;
+}
+
+/* Dropdown */
+select {
+    border: none;
+    outline: none;
+    background: none;
+    width: 100%;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+/* Swap icon */
+.swap {
+    font-size: 22px;
+    margin-top: 20px;
+}
+
+/* Rate text */
+.rate {
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 20px;
+    font-family: auto;
+}
+
+/* Button */
+button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(to right, #a64ca6, #d16ba5);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    opacity: 0.9;
+}

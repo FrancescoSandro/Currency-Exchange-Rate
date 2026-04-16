@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h2>Currency Converter</h2>
+
+    <label id="labelText">Enter Amount</label>
+    <input id="userInput" type="number" value="">
+
+    <div class="row">
+        
+        <!-- FROM -->
+        <div id="fromBox">
+            <label>From</label>
+            <div class="flag-select">
+                <img src="https://flagsapi.com/US/flat/64.png" alt="countryFlag">
+                <select>
+                    <option value="USD">USD</option>
+                </select>
+            </div>
+        </div>
+
+        <!-- SWAP ICON -->
+        <div class="swap">⇄</div>
+
+        <!-- TO -->
+        <div id="toBox">
+            <label>To</label>
+            <div class="flag-select">
+                <img src="https://flagsapi.com/BD/flat/64.png" alt="countryFlag">
+                <select>
+                    <option value="BDT">BDT</option>
+                </select>
+            </div>
+        </div>
+
+    </div>
+
+    <p class="rate">0 USD = 0 BDT</p>
+
+    <button>Get Exchange Rate</button>
+</div>
+
+<!-- JavaScript file adds -->
+ <script src="countrycodes.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
