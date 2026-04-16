@@ -1,4 +1,4 @@
-const BASE_URL = "https://v6.exchangerate-api.com/v6/ef6cfb5462eaf17dc93d7ef9/latest/USD";
+const BASE_URL = "https://v6.exchangerate-api.com/v6/{Get your API key from ExchangeRate-API and paste here. Also remove {} }/latest/USD";
 
 let userInput = document.querySelector("#userInput");
 let fromCurrencySelect = document.querySelector("#fromBox select");
